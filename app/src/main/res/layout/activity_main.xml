@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <info.hoang8f.android.segmented.SegmentedGroup
+        android:id="@+id/segmented_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radio_lg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lg"
+            style="@style/RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/radio_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/google"
+            style="@style/RadioButton"/>
+
+        <RadioButton
+            android:id="@+id/radio_ios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ios"
+            style="@style/RadioButton"/>
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apply"
+        android:id="@+id/apply"
+        android:textColor="@android:color/white"
+        android:background="@color/color"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/preview"
+        tools:src="@drawable/lg"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/apply"
+        android:contentDescription="@string/content_description_preview_for_emoji"/>
+</RelativeLayout>

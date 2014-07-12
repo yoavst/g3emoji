@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LG Emoji Switcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="apply">Apply</string>
+    <string name="lg">LG</string>
+    <string name="google">google</string>
+    <string name="ios">iOS</string>
+    <string name="content_description_preview_for_emoji">preview for Emoji</string>
+    <string name="action_xda">XDA thread</string>
+    <string name="action_donate">donate me</string>
+    <string name="loading_text">Getting SU permission</string>
+    <string name="applying_message">Doing magic with root</string>
+    <string name="finish_emoji">Done changing emoji look</string>
+    <string name="failed">FAILED</string>
+    <string name="do_you_want_to_reboot">Do you want to reboot?</string>
+    <string name="remember_to_reboot">Just remember to reboot to see the changes</string>
+    <string name="failed_to_reboot">cannot reboot, reboot by yourself</string>
+</resources>
